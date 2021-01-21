@@ -65,6 +65,8 @@ public class SimpleGallery extends Activity {
 
             imageView.setImageResource(imageIds[position]);
             imageView.setScaleType(ImageView.ScaleType.FIT_XY);
+            
+            // 设置ImageView的宽高
             imageView.setLayoutParams(new Gallery.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 500));
             return imageView;
         }
